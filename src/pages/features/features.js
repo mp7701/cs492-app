@@ -61,7 +61,9 @@ console.log("test");
 const Features = () => {
 return (
   <div>
-  <Refresh props="/features/likes"></Refresh>
+  <NavLink to ="/features/likes">
+    <Refresh props="/features/likes"></Refresh>
+  </NavLink>
 	<div class = "center">
 		<Title>
 			Endless Scrolling and Pull to Refresh

@@ -1,7 +1,7 @@
 {
   "name": "cs492-app",
   "version": "0.1.0",
-  "homepage": "https://mp7701.github.io/cs492-final-project",
+  "homepage": "https://mp7701.github.io",
   "private": true,
   "build": "react-scripts build && cp build/index.html build/404.html",
   "dependencies": {

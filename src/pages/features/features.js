@@ -61,10 +61,14 @@ console.log("test");
 const Features = () => {
 return (
   <div>
-  <NavLink to ="/features/likes">
-    <Refresh props="/features/likes"></Refresh>
-  </NavLink>
 	<div class = "center">
+    <div style={{float: 'right'}}>
+    <NavLink to = "/features/likes">
+                <IconButton aria-label="refresh" size="large">
+                    <IoMdRefresh/>
+                </IconButton>
+                </NavLink>
+            </div>
 		<Title>
 			Endless Scrolling and Pull to Refresh
 		</Title>

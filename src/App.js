@@ -17,6 +17,7 @@ import Sources from './pages/sources';
 function App() {
 return (
 	<Router>
+		<div>
 	<Navbar />
 	<Routes>
 		<Route exact path='/' exact element={<Home />} />
@@ -30,6 +31,7 @@ return (
 		<Route path='/chrome' element={<ChromeExtension/>} />
 		<Route path='/sources' element={<Sources/>} />
 	</Routes>
+	</div>
 	</Router>
 );
 }
